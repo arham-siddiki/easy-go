@@ -1,0 +1,238 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+/*-----------------------------navigation items start--------------------------*/
+
+.book_heading{
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+
+header{
+    margin-bottom: 0px;
+    
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:rgba(255,255,255, 0.5);
+    box-shadow: rgb(26 26 29 / 100%) 0px 15px 46px -10px !important;
+
+}
+.logo{
+    font-family: 'Odibee Sans', cursive;
+    font-size: 43px;
+    margin: 10px;
+    font-weight: 800;
+}
+.nav-element a{
+    font-family: Roboto, sans-serif;
+    text-decoration: none;
+    margin: 0px 7px;
+    color: black;
+    font-weight: 800;
+}
+.nav-element a:hover{
+    
+    color: rgb(243, 125, 16);
+}
+
+/*---------------------navigation ended-----------------------------*/
+
+
+
+.section_1{
+    height: 659px;
+    border: 1px #000 solid;
+    position: relative;
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url("../images/about/team.jpg");
+    background-size: cover;
+    
+    
+}
+.section_1 img{
+    linear-gradient:(rgba(0,0,0,0.5), rgba(0,0,0,0.5));
+}
+.main_lo{
+    position: absolute;
+    font-family: 'Nunito Sans', sans-serif;
+    width: 70%;
+    top: 412px;
+    left: 183px;
+    text-align: center;
+    color: white;
+}
+.main_lo h1
+{
+    font-size: 55px;
+    color: orange;
+    width: 30%;
+    text-align: center;
+    margin: auto;
+    border-bottom: 5px solid orange;
+
+
+}
+
+.main_lo h3{
+    font-size: 23px;
+
+    margin-top: 19px;
+    font-weight: 400;
+
+}
+.main_l{
+    
+    font-family: 'Nunito Sans', sans-serif;
+    padding: 35px;
+    font-size: 20px;
+    padding: 2px;
+    text-align: center;
+    margin: 52px;
+    
+    color: rgb(77, 70, 70);
+
+}
+.section2{
+    padding: 0px 235px;
+    margin-top: 71px;
+    font-family: "Muli", sans-serif;
+    font-weight: 400;
+}
+.section2 p{
+    
+    /* margin-bottom: 23px; */
+    color: rgb(98 85 85 / 83%);
+    line-height: 29px;
+    text-align: center;
+
+}
+
+.main_l h1{
+    
+    border-bottom: 6px solid orange;
+    
+    margin: auto;
+} 
+
+.section3{
+    width: 80%;
+    
+    margin: auto;
+    border-left: 1px dashed grey;
+   
+
+}
+.section_main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 12rem;
+}
+.left_div{
+    border: none;
+    background-color: orange;
+    border-radius: 6px;
+    height: 2.5rem;
+    width: 6.9rem;
+    font-weight: 800;
+    font-size: 1.8rem;
+    color: white;
+    text-align: center;
+}
+.right_div{
+
+    /* border: 1px   solid gray; */
+    width: 80%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rightdiv1 {
+    width: 60%;
+    padding: 2rem;
+    border-right: 1px dashed gray;
+
+}
+.rightdiv1 h3{
+    font-family: 'Nunito Sans', sans-serif ;
+}
+.rightdiv1 p{
+    font-size: 1.0rem;
+    color: #999;
+    font-weight: 400;
+    font-family: 'Nunito Sans', sans-serif ;
+}
+
+.rightdiv2{
+   
+    width: 17%;
+    margin-right: 66px;
+
+}
+
+.section4 h3{
+    
+    
+   /* border-bottom: 6px solid orange;*/      margin-left: 576px;
+   font-size: 24px;
+   margin-top: 88px;
+   font-family: 'Nunito Sans', sans-serif ;
+}
+
+.sapan{
+    color: orangered;
+}
+.section4:hover{
+    color: orangered;
+}
+
+.section5{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 100px;
+    /* border: 1px solid black; */
+    
+
+}
+.usercard{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 20%;
+    /* border: 1px solid gray; */
+    padding: 14px 14px;
+    height: 28rem;
+    border-radius: 22px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+}
+.usercard p{
+    font-family: 'Nunito Sans', sans-serif ;
+    font-size: 1.0rem;
+    color: #666;
+    line-height: 150%;
+
+}
+.usercard img{
+    width: 60%;
+    height: 130px;
+    border-radius: 50%;
+    align-items: center;
+}
+.usercard h5{
+    font-family: 'Nunito Sans', sans-serif ;
+    font-size: 1.2rem;
+    color: black;
+    line-height: 179%;
+}

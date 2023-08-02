@@ -1,0 +1,356 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+h1 {
+    color: rgb(0, 0, 0);
+  }
+  
+  
+  p, 
+  li {
+    font-size: 18px;
+  }
+  
+  
+  a {
+    text-decoration: none;
+  }
+
+  input{
+      margin-top: 2px;
+  }
+
+   label{
+    cursor: pointer;
+    
+    padding: 3px ;
+    text-align: right;
+    width: 150px;
+    vertical-align: top;
+    
+}
+
+
+
+
+
+#homeBody {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    background-image: url("../images/homeBG.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+  }
+
+
+
+
+/*-----------------------------navigation items start--------------------------*/
+
+.book_heading{
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+
+header{
+    margin-bottom: 15px;
+    
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:rgba(255,255,255, 0.5);
+    box-shadow: rgb(26 26 29 / 100%) 0px 15px 46px -10px !important;
+
+}
+.logo{
+    font-family: 'Odibee Sans', cursive;
+    font-size: 43px;
+    margin: 10px;
+    
+}
+.nav-element a{
+    text-decoration: none;
+    margin: 0px 7px;
+    color: black;
+}
+.nav-element a:hover{
+    
+    color: rgb(243, 125, 16);
+}
+
+/*---------------------navigation ended-----------------------------*/
+
+
+#main{
+    display: flex;
+    justify-content: space-around;
+    padding: 0 50px;
+    height: 450px;
+    padding-top: 58px;
+    
+}
+
+.quote{
+    font-size: 57px;
+    padding-top: 30px;
+    padding-bottom: 353px;
+    color: gray;
+    font-family: emoji;
+}
+
+.quote-sub{
+    background-color:rgba(255,255,255, 0.5);
+    border-radius: 0.5rem;
+}
+
+.quote-sub:hover{
+    color: orangered;
+}
+
+/*------------------------------booking card start------------------------*/
+
+.booking_detail{
+    
+    height: 330px;
+    width: 330px;
+    padding: 5% 3%;
+    
+
+    border-radius: 5%;
+      
+    border: 3px solid white;
+    background-color:rgba(255,255,255, 0.5);
+    align-items: center;
+     
+    font-family: "Muli", sans-serif;
+    box-shadow: rgb(26 26 29 / 100%) 0px 15px 46px -10px !important;
+    
+}
+
+.pick{
+    margin-bottom: 10%;
+    padding: 2px 0px;
+}
+
+.p { 
+    margin-top: 0%;
+    width: 86%;
+    position: relative;
+    left: 0%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.date_time{
+    height: 30px;
+    width: 130px;
+    border: 1px solid lightgray;
+    border-radius: 0.5rem;
+    padding-left: 5px;
+}
+
+#search_card{
+    margin: auto;
+    box-shadow: none;
+    border: none;
+    width: 86%;
+    background-color: #fed250;
+    border-radius: 0.5rem;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #000;
+    transition: all 0.2s;
+    height: 2.3rem;
+    text-transform: initial;
+    
+    margin-top: 1rem;
+    font-family: 'Muli', sans-serif;
+    
+
+    /* color: rgb(124, 143, 132);  background-color: antiquewhite; border: none; padding: 2%; border-radius: 20%; font-weight: 600;  */
+}
+
+#search_card:hover{
+    color: rgb(249, 247, 246);
+    background-color: rgb(243, 125, 16);
+
+}
+
+/*------------------------------booking card end------------------------*/
+
+
+
+/*----------------------our fleet start-----------------------------------*/
+
+.fleet{
+    
+    width: 90%;
+    margin: auto;
+    margin-top: 40px;
+    margin-top: 100px;
+}
+
+.fleet p{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    background-color:rgba(255,255,255, 0.5);
+    border-radius: 0.5rem;
+    
+}
+
+.ourfleetpara{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    border-radius: 0.5rem;
+    background-color:rgba(0, 0, 0, 0.5);
+}
+
+.card_wrapper{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.fleet_cars{
+    border: 3px solid white;
+    width: 25%;
+    height: 350px;
+    margin: 0 6px;
+    background-color: white;
+    text-align: center;
+    border-radius: 6%;
+}
+.fleet_cars p{
+    font-size: 17px;
+    color: rgb(0, 0, 0);
+    margin-bottom: 4px;
+}
+ .fleet_cars img{
+    height: 219px;
+    width: 80%;
+    background-color: transparent;
+    margin-bottom: 27px;
+ }
+
+ #book_car{
+    text-align: center;
+    box-shadow: none;
+    border: none;
+    width: 100%;
+    background-color: #fed250;
+    border-radius: 0.5rem;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #000;
+    transition: all 0.2s;
+    height: 3rem;
+    text-transform: initial;
+    line-height: 0;
+    
+    font-family: 'Muli', sans-serif;
+    margin-bottom: 0px;
+    width: 93%;
+ }
+ #book_car:hover{
+    color: rgb(249, 247, 246);
+    background-color: rgb(243, 125, 16);
+
+}
+
+/*---------------------------end of fleets show--------------------------------*/
+#popup-container{
+    width: 100%;
+    height: 1150px;
+    border: 1px solid black;
+    position: absolute;
+    top: 0px;
+    z-index: 10;
+    display: none;
+    background-color: rgb(255, 255, 255,0.9);
+    position: fixed;
+
+}
+
+.mod{
+    margin: auto;
+    position: absolute;
+    top: 10%;
+    left: 40%;
+}
+
+.btns{
+    display: flex;
+}
+
+#search_popup{
+    width: 40%;
+}
+
+.popup_search{
+    margin: auto;
+    box-shadow: none;
+    border: none;
+    
+    background-color: #fed250;
+    border-radius: 0.5rem;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #000;
+    transition: all 0.2s;
+    height: 2.3rem;
+    text-transform: initial;
+    width: 100%;
+
+    
+    margin-top: 1rem;
+    font-family: 'Muli', sans-serif;
+}
+
+.popup_search:hover{
+    color: rgb(249, 247, 246);
+    background-color: rgb(243, 125, 16);
+}
+
+#go-back{
+    width: 40%;
+    margin-left: 18px;
+}
+
+.goback{
+    margin: auto;
+    box-shadow: none;
+    border: none;
+    
+    background-color: #fed250;
+    border-radius: 0.5rem;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #000;
+    transition: all 0.2s;
+    height: 2.3rem;
+    text-transform: initial;
+    
+    width: 100%;
+
+    
+    margin-top: 1rem;
+    font-family: 'Muli', sans-serif;
+}
+
+.goback:hover{
+    color: rgb(249, 247, 246);
+    background-color: rgb(243, 125, 16);
+}

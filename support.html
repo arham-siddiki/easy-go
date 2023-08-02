@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <link href="./resources/css/support.css" type="text/css" rel="stylesheet">
+  <title>Support</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Odibee+Sans&family=Roboto:wght@300&display=swap" rel="stylesheet">
+  <script src="./resources/js/fa.js"></script>
+
+</head>
+
+
+<body id="supportBody">
+
+  <header >
+    <div class="header">
+        <div class="logo"><a href="./index.html">Easy Go</a></div>
+    
+        <div class="nav-element">            
+            <a href="">LOG IN</a>
+            <a href="">SIGN UP</a>
+            <a href="./about.html">ABOUT US</a>
+            <a href="./support.html">SUPPORT</a>
+        </div>
+
+    </div>
+    
+  </header>  
+
+  
+
+  <div class="support_form_main">
+    <div class="support_heading">
+      <h1 style="font-size: 20px;">CONTACT US</h1>
+    </div> 
+
+    <div class="contact_links">
+    <div class="contact_links_sub">
+      <i class="fa-solid fa-location-dot"></i>
+      <p class="contact-p">C-106, NITC Hostels<br>Main campus NIT Calicut<br>Calicut, Kerala-673601</p>
+    </div>
+    <div class="contact_links_sub">
+      <i class="fa fa-phone"></i>
+      <p class="contact-p">+91-84472-42664/+91-7793095988</p>
+    </div>
+    <div class="contact_links_sub">
+      <i class="fa-solid fa-envelope"></i> 
+      <p class="contact-p">arham_m210695ca@nitc.ac.in / deepak_m210698ca@nitc.ac.in</p>
+    </div>
+    </div>
+
+    <div class="support_form">
+      <form name="responseForm" onsubmit="return validateForm()">
+      
+      <div class="box">
+      <input type="text" id="fname" class="support_form_input" name="fname" placeholder="Name">
+      <input type="text" id="contact" class="support_form_input" name="contact" placeholder="Contact no.">
+      <input type="text" id="email" class="support_form_input" name="email" placeholder="E-mail"><br><br>
+      </div>
+      <input type="text" id="issue" class="support_form_input" name="issue" placeholder="Issue/suggestions"><br><br>
+
+      <input type="submit" id="submit" name="submit">
+
+      </form>
+    </div>
+
+  </div>
+
+  <script>
+    function validateForm() {
+
+        let x = document.forms["responseForm"]["issue"].value;
+        if (x == "") {
+          alert("Issue cannot be empty !!!");
+          return false;
+        }
+        else
+          alert("Your response has been recorded. Thank You. ");
+
+    }
+
+  </script>
+
+</body>
+</html>

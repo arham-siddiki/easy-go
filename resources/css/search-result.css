@@ -1,0 +1,303 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+h1 {
+    color: rgb(0, 0, 0);
+  }
+  
+  
+  p, 
+  li {
+    font-size: 18px;
+  }
+  
+  
+  a {
+    text-decoration: none;
+  }
+
+  input{
+      margin-top: 2px;
+  }
+
+   label{
+    cursor: pointer;
+    
+    padding: 3px ;
+    text-align: right;
+    width: 150px;
+    vertical-align: top;
+    
+}
+
+#search_result {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    background-image: url("../images/search_resultBG.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+/*-----------------------------navigation items start--------------------------*/
+
+.book_heading{
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+
+header{
+    margin-bottom: 15px;
+    
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:rgba(255,255,255, 0.5);
+    box-shadow: rgb(26 26 29 / 100%) 0px 15px 46px -10px !important;
+
+}
+.logo{
+    font-family: 'Odibee Sans', cursive;
+    font-size: 43px;
+    margin: 10px;
+    
+}
+.nav-element a{
+    text-decoration: none;
+    margin: 0px 7px;
+    color: black;
+}
+.nav-element a:hover{
+    
+    color: rgb(243, 125, 16);
+}
+
+/*---------------------navigation ended-----------------------------*/
+
+
+/*---------------------------search results main-------------------------------*/
+
+#search-main{
+    padding: 5%;
+    background-color:rgba(255,255,255, 0.5);
+}
+
+.search-headline{
+    font-size: 26px;
+    text-align: center; 
+    border: 2px solid white; 
+    border-radius: 0.5rem;
+    background-color:rgba(255,255,255, 0.5);
+}
+
+.cars-class{
+    
+    display: flex;
+    padding: 2%;
+    padding-left: 0%;
+    margin: 6px 0;
+}
+
+.cars-display{
+    border: 3px solid white;
+    width: 25%;
+    height: 350px;
+    margin: 0 6px;
+    background-color: white;
+    text-align: center;
+    border-radius: 6%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+
+.cars-display:hover{
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.cars-display p{
+    font-size: 17px;
+    color: rgb(0, 0, 0);
+    margin-bottom: 4px;
+}
+ .cars-display img{
+    height: 219px;
+    width: 95%;
+    background-color: transparent;
+    margin-bottom: 27px;
+ }
+
+
+.cars-display-1{
+    align-items: center;
+    text-align: center;
+    
+    border-radius: 0.4rem;
+    margin: 122px 6px;
+    width: 15%;
+    padding: 2% 0;
+    font-size: 20px;
+    font-weight: 800;
+    background-color: #fed250;
+}
+
+.cars-display-1:hover{
+    color: rgb(249, 247, 246);
+    background-color: rgb(243, 125, 16);
+
+}
+
+.book-now{
+    margin: auto;
+    box-shadow: none;
+    border: none;
+    width: 86%;
+    background-color: #fed250;
+    border-radius: 0.5rem;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #000;
+    transition: all 0.2s;
+    height: 2.3rem;
+    text-transform: initial;
+    
+    margin-top: 1rem;
+    font-family: 'Muli', sans-serif;
+    
+
+    /* color: rgb(124, 143, 132);  background-color: antiquewhite; border: none; padding: 2%; border-radius: 20%; font-weight: 600;  */
+}
+
+.book-now:hover{
+    color: rgb(249, 247, 246);
+    background-color: rgb(243, 125, 16);
+
+}
+
+
+/*---------------------------search results main end-------------------------------*/
+
+
+/*---------------------------customer details popup--------------------------------*/
+
+#customer-details-bg{
+    width: 100%;
+    height: 1000px;
+    background-color: rgb(255, 255, 255,0.9);
+    position: fixed;
+    top: 0px;
+    z-index: 10;
+    display: none;
+}
+
+.customer-details-popup{
+    margin: auto;
+    position: absolute;
+    top: 10%;
+    left: 40%;
+}
+
+.customer-details{
+    height: 390px;
+    width: 300px;
+    padding: 5% 3%;
+    padding-right: 0px;
+    border-radius: 5%;
+    border: 3px solid white;
+    background-color:rgba(255,255,255, 0.5);
+    align-items: center;
+    font-family: "Muli", sans-serif;
+    box-shadow: rgb(26 26 29 / 100%) 0px 15px 46px -10px !important;
+}
+
+.credentials{
+    margin-bottom: 6%;
+    padding: 2px 0px;
+}
+
+.credentials input{
+    border: none;
+    border-bottom: 1px solid gray;
+    line-height: 3;
+    width: 80%;
+    padding-left: 2%;
+}
+
+.dlMessage{
+    margin-right: 53px;
+    font-size: 12px;
+    color: gray;
+}
+
+.btns{
+    display: flex;
+}
+
+#search_popup{
+    width: 40%;
+}
+
+.confirm-book{
+    margin: auto;
+    box-shadow: none;
+    border: none;
+    
+    background-color: #fed250;
+    border-radius: 0.5rem;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #000;
+    transition: all 0.2s;
+    height: 2.3rem;
+    text-transform: initial;
+    width: 100%;
+
+    
+    margin-top: 1rem;
+    font-family: 'Muli', sans-serif;
+}
+
+.confirm-book:hover{
+    color: rgb(249, 247, 246);
+    background-color: rgb(243, 125, 16);
+}
+
+#go-back{
+    width: 40%;
+    margin-left: 18px;
+}
+
+.goback-details{
+    margin: auto;
+    box-shadow: none;
+    border: none;
+    text-align: center;
+    background-color: #fed250;
+    border-radius: 0.5rem;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #000;
+    transition: all 0.2s;
+    height: 2.3rem;
+    text-transform: initial;
+    width: 100%;
+    margin-top: 1rem;
+    font-family: 'Muli', sans-serif;
+}
+
+.goback-details:hover{
+    color: rgb(249, 247, 246);
+    background-color: rgb(243, 125, 16);
+}
+
+.gobackp{
+    
+}
+
+/*---------------------------customer details popup end----------------------------*/
